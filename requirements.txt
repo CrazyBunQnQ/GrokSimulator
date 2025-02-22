@@ -2,3 +2,4 @@ flask==3.1.0
 selenium==4.29.0
 chromedriver-py==133.0.6943.126
 python-dotenv
+loguru==0.7.2
