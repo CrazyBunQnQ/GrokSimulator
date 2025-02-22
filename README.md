@@ -28,3 +28,7 @@ POST http://localhost:51776/login
 - Python 3.8+
 - ChromeDriver
 # GrokSimulator
+
+## Logging
+
+Logs are stored in `login_log.txt` by default. This file is ignored by `.gitignore` to prevent sensitive information from being committed to the repository.
