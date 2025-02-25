@@ -1,2 +1,4 @@
 .env
-*.loglogin_log.txt
+*.log
+*log.txt
+*.cookie
