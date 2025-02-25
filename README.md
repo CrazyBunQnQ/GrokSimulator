@@ -32,3 +32,19 @@ POST http://localhost:51776/login
 ## Logging
 
 Logs are stored in `login_log.txt` by default. This file is ignored by `.gitignore` to prevent sensitive information from being committed to the repository.
+## ChromeDriver Installation
+
+1. Unzip the chromedriver:
+   ```bash
+   unzip chromedriver_linux64.zip
+   ```
+
+2. Make the chromedriver executable:
+   ```bash
+   chmod +x chromedriver
+   ```
+
+3. Move chromedriver to a directory in your PATH, e.g.:
+   ```bash
+   sudo mv chromedriver /usr/local/bin/
+   ```
